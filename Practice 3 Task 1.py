@@ -6,7 +6,7 @@ def NumberChecking(number):
     except ValueError:
         return False
 
-def ListChecking(list):
+def ListChecking(my_list):
     result=[]
     for i in my_list:
         if NumberChecking(i):
